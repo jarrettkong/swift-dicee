@@ -22,5 +22,8 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func rollButtonPressed(_ sender: UIButton) {
+        print("Button got tapped.")
+    }
 }
 
